@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+main {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    height: 200px;
+    width: 100%;
+    background-color: #121213;
+    font-size: 200px;
+    
+  }
+
+.card {
+    background-color: rgba(86, 91, 116, 0.8);
+    border-radius: 10px;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 80px;
+       
+}
+.card-body {
+    text-align: center;
+    
+}
+.btn-custom {
+    margin: 5px;
+}
+
+p{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
