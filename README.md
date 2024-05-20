@@ -1,7 +1,7 @@
 ![Banner](./assets/img/banner.png)
 
 <div align='center'>
-    <a href="https://tinchogithub.github.io/chistes-para-programadores/" target="_blank">
+    <a href="https://tinchogithub.github.io/desafio-consumir-api/" target="_blank">
           <img  src="https://img.shields.io/badge/VER_DEMO-f0ad4e?style=for-the-badge&logo=vercel&logoColor=%23343B4E"/>
        </a>
 </div>

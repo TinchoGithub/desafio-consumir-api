@@ -1,5 +1,5 @@
 const botonRequest = document.getElementById('boton-chiste').addEventListener('click', obtenerChiste);
-const imagen = "../assets/img/bmo.gif";
+const imagen = "../bmo.gif";
 
 /* ASYNC AWAIT */
 
