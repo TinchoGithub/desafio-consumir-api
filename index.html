@@ -16,30 +16,38 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body data-aos="zoom-out" data-aos-duration="2000" >
+<body data-aos="zoom-out" data-aos-duration="2000">
     
-    <main >
+    <main class="d-flex flex-column min-vh-100">
+
         <!-- NAV -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black navbar-custom ">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid justify-content-center">
-                <a class="navbar-brand text-warning justify-content: center" style="font-size: 30px;" href="./index.html"><p ><span class="text-primary">{</span> Chistes para Programador@s <span class="text-primary">}</span></p> </a>
+                <a style="font-size: 35px;" class="navbar-brand text-warning text-center navbar-brand-custom" href="./index.html">
+                    <span class="text-primary">{</span> Chistes para Programador@s <span class="text-primary">}</span>
+                </a>
+            </div>
         </nav>
 
         <!-- CONTENIDO -->
-        <div class="card w-50" data-aos="fade-up" data-aos-duration="2000">
-            <div class="card-body">
-                <div id="contenido" class="contenido">
-                    <p class="parrafo-bienvenida ">¡Bienvenid@! Aquí, cada click es una carcajada asegurada para programador@s como tú. Relájate, presiona el botón y disfruta de un buen chiste que alegrará tu jornada de código. <br> ¡Diviértete! <br> <span style="font-size: 25px;">👇</span></p>
+        <div class="container d-flex justify-content-center align-items-center flex-grow-1">
+            <div  class="card mx-auto" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card-body text-center">
+                    <div id="contenido" class="contenido">
+                        <p class="parrafo-bienvenida">¡Bienvenid@! Aquí, cada click es una carcajada asegurada para programador@s como tú. Relájate, presiona el botón y disfruta de un buen chiste que alegrará tu jornada de código. <br> ¡Diviértete! <br> <span style="font-size: 25px;">👇</span></p>
+                    </div>
+                    <button id="boton-chiste" class="btn btn-primary btn-custom">Ver chiste</button>
+                    <button id="boton-respuesta" class="btn btn-warning btn-custom" style="display:none;">Ver Respuesta</button>
                 </div>
-                <button id="boton-chiste" class="btn btn-primary btn-custom">Ver chiste</button>
-                <button id="boton-respuesta" class="btn btn-warning btn-custom" style="display:none;">Ver Respuesta</button>
             </div>
         </div>
 
         <!-- FOOTER -->
-        <footer style="margin: 0;"  class="bg-black w-100 py-1 mt-auto" >
-            <div class="text-right text-warning pr-3" >
-              <a class="text-warning animate__animated animate__bounce" style="text-decoration: none;" href="https://tinchogithub.github.io/Martin-Perez/" target="_blank"><p style="font-size: 10px;">© 2024 Juan Martín Perez</p></a>
+        <footer class="w-100 py-1 mt-auto">
+            <div class="text-right text-warning">
+                <a class="text-warning animate__animated animate__bounce" style="text-decoration: none;" href="https://tinchogithub.github.io/Martin-Perez/" target="_blank">
+                    <p style="font-size: 10px;">© 2024 Juan Martín Perez</p>
+                </a>
             </div>
         </footer>
 
