@@ -1,5 +1,6 @@
+import imagen from '../assets/img/bmo.gif'
 const botonRequest = document.getElementById('boton-chiste').addEventListener('click', obtenerChiste);
-const imagen = "../bmo.gif";
+
 
 /* ASYNC AWAIT */
 
