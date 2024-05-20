@@ -1,6 +1,5 @@
-import imagen from 'https://github.com/TinchoGithub/desafio-consumir-api/blob/main/assets/img/bmo.gif';
 const botonRequest = document.getElementById('boton-chiste').addEventListener('click', obtenerChiste);
-
+const imagen = '../assets/img/bmo.gif';
 
 /* ASYNC AWAIT */
 
