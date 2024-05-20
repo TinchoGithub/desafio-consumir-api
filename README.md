@@ -16,6 +16,7 @@ Este proyecto utiliza las siguientes tecnologías:
 
 ![HTML Badge](https://img.shields.io/badge/HTML-5-orange)
 ![CSS Badge](https://img.shields.io/badge/CSS-3-blue)
+![Bootstrap Badge](https://img.shields.io/badge/Bootstrap-5-blueviolet)
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
 ## Funcionalidad
